@@ -1,0 +1,25 @@
+{
+  "name": "test-api",
+  "version": "0.0.1",
+  "description": "simple greeting api to test various integration solutions",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "api",
+    "switch",
+    "enrollments"
+  ],
+  "author": "Geoff Doty <n2geoff@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "supertest": "^1.1.0"
+  }
+}
